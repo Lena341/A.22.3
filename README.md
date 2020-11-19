@@ -1,7 +1,6 @@
 # A.22.3
 C++ exercise
 
-English:
 Set the class Book with private fields code and price of the book. Set the class CD with the private field title, the title  of the book. Each class should have a public function 
 show() for showing the values of her fields. Set the template class Shop<T>, where T can be of type CD or Book. The class should have a private vector field in which the T objects 
 stored. For storing each object declare an add() function. Also, the class should have the function show() which calls the show() of the objects which are included in the vector 
@@ -23,4 +22,4 @@ int main()
 }
 
 Note:
-None of the excercises are mine only the solution. They are part of the book "C++ from theory to practice" written by G. S. Tselikis.
+The exercises are not mine, only the solution. They are part of the book "C++ from theory to practice" written by G. S. Tselikis.
