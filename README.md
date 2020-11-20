@@ -1,10 +1,7 @@
 # A.22.3
 C++ exercise
 
-Set the class Book with private fields code and price of the book. Set the class CD with the private field title, the title  of the book. Each class should have a public function 
-show() for showing the values of her fields. Set the template class Shop<T>, where T can be of type CD or Book. The class should have a private vector field in which the T objects 
-stored. For storing each object declare an add() function. Also, the class should have the function show() which calls the show() of the objects which are included in the vector 
-object for showing their elements. Add to the classes the right functions so that the following program can work. 
+Set the class Book with private fields code and price of the book. Set the class CD with the private field title, the title  of the book. Each class should have the public function show() for showing the values of her fields. Set the template class Shop<T>, where T can be of type CD or Book. The class should have a private vector field in which the T objects are stored. For storing each object declare an add() function. Also, the class should have the function show() which calls the show() of the objects, which are included in the vector object, for showing their elements. Add to the classes the right functions so that the following program can work. 
 
 int main()
 {
