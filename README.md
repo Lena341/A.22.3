@@ -5,9 +5,13 @@ Set the class Book with private fields code and price of the book. Set the class
 
 int main()
 {
+	
 	Shop<Book> s1;
+	
 	s1.add(Book(5, 10)); //The s1 is object is stored in s1.v
+	
 	s1.add(Book(20, 30)); 
+	
 	s1.show(); //The program should show the data of the objects, that is 5 10 and 20 30.
 
 	Shop<CD> s2;
